@@ -1,12 +1,12 @@
-import { Component, Input, OnInit } from "@angular/core";
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: "app-fruit",
-  templateUrl: "./fruit.component.html",
-  styleUrls: ["./fruit.component.scss"]
+  selector: 'app-fruit',
+  templateUrl: './fruit.component.html',
+  styleUrls: ['./fruit.component.scss']
 })
 export class FruitComponent implements OnInit {
-  @Input() fruit: string;
+  @Input() fruit?: string;
   constructor() {}
 
   ngOnInit() {}
